@@ -1,0 +1,14 @@
+.container {
+    width: 540px;
+    background-color: red;
+}
+img {
+    float: left;
+    margin: 10px;
+}
+
+@media screen and (min-width=1020px) {
+    .container {
+        background-color: yellow;
+    }
+}
