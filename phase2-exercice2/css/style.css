@@ -8,10 +8,12 @@
 }
 /* header */
 header {
-    text-align: center;
     height: 150px;
     background-color: lightgray;
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* nav */
 
@@ -58,6 +60,8 @@ footer {
     background-color: lightgray;
     border: grey 1px solid;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
 }
 
 footer ul{
