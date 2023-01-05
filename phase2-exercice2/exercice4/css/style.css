@@ -1,0 +1,37 @@
+
+
+.container {
+    width: 180px;
+    border: 1px solid rgb(171, 170, 170);
+}
+/* header */
+header p {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+}
+.nav-h ul {
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+.nav-h li {
+    border-bottom: 1px solid lightgrey;
+}
+.nav-h a {
+    color: rgb(255, 225, 0);
+}
+/* main */
+.date {
+    background-image: url(../img/bandeau-01.jpg)
+}
+.date p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    background: rgba(251, 248, 248, 0.699);
+}
+.time {
+    background: rgba(251, 248, 248, 0.699);
+}
+.time span {
+    color: red;
+}
