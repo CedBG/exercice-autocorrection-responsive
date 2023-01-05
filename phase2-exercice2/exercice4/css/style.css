@@ -77,13 +77,14 @@ header p {
     height: 30px;
     margin: 10px;
     position: relative;
-    border: red 0 3px 3px 0 solid;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
 }
 .button a {
     color: red;
     position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 10px;
+    left: 28px;
 }
 
 /* section2 */
