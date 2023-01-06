@@ -8,11 +8,18 @@
 
 /* header */
 
+.grille {
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 header p {
     font-size: 2rem;
     font-weight: 550;
-    text-align: center;
     height: 77px;
+    width: 240px;
 }
 .nav-h ul {
     border-right: 1px solid lightgrey;
@@ -29,35 +36,47 @@ header p {
 
 /* main */
 
-.date {
+.datime {
     background-image: url(../img/bandeau-01.jpg);
+    width: 100%;
     height: 152px;
     margin-bottom: 40px;
 }
-.date p {
+.date {
     font-weight: 500;
     font-size: 1.5rem;
     background: rgba(251, 248, 248, 0.699);
+    height: 50px;
+    width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.date p {
+    width: 244px;
 }
 .time {
-    background: rgba(251, 248, 248, 0.699);
     margin-bottom: 10px;
-}
-.time span {
-    
-    color: red;
-}
-.time a {
     text-align: center;
+    background: rgba(251, 248, 248, 0.699);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.time p {
+    height: 60px;
+    width: 219px;
+}
+.time span {   
+    color: red;
 }
 
 /* section1 */
 
 .section1 article {
     border-bottom: 2px solid;
-    margin-bottom: 0px;
     margin-top: 20px;
 }
 .section1 img {
@@ -70,6 +89,11 @@ header p {
     padding-top: 50px;
     padding-bottom: 10px;
     font-size: 1.5rem;
+    width: 52%;
+    line-height: 2rem;
+}
+.h2 {
+    width: 164px;
 }
 .button {
     background: rgb(211, 210, 210);
@@ -83,8 +107,18 @@ header p {
 .button a {
     color: red;
     position: absolute;
-    top: 10px;
-    left: 28px;
+    top: 6px;
+    left: 12px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+article img {
+    align-self: center;
+}
+article p, h2 {
+    padding: 0 5px;
 }
 
 /* section2 */
@@ -103,6 +137,7 @@ header p {
     padding-left: 10px;
     padding-top: 10px;
     height: 50px;
+    width: 207px;
 }
 .section2 a {
     color: black;
