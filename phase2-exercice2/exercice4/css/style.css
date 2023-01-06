@@ -123,7 +123,7 @@ article p, h2 {
 
 /* section2 */
 
-.section2 {
+/* .section2 {
     background: #eee;
     width: 540px;
     height: 314px;
@@ -145,11 +145,45 @@ article p, h2 {
 }
 .section2 li {
     border-bottom: 1px dashed red;
+} */
+
+/* section2l */
+
+.section2l { 
+        background: #eee;
+        width: 540px;
+        height: 314px;
+        margin-top: 50px;
+    }
+.section2l p {
+        color: red;
+        font-size: 1.3rem;
+        border-left: 20px solid red;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        height: 50px;
+        width: 207px;
+}
+    .section2l a {
+        color: black;
+        margin-left: 30px;
+}
+
+.section2l li {
+        border-bottom: 1px dashed red;
+}
+.pub {
+    display: flex;
+}
+.pub img {
+    width: 100%;
+    height: auto;
 }
 
 /* footer */
 
-footer {
+/* footer {
     background: red;
     padding: 20px;
 }
@@ -159,4 +193,27 @@ footer li {
 footer a {
     color: lightgrey;
     margin-left: 20px;
+} */
+
+/* footerl */
+
+.footerl {
+    background: red;
+    padding: 20px;
+}
+.footer ul {
+    display: flex;
+}
+.footerl li {
+    border-left: 20px solid white;
+}
+.footerl a {
+    color: lightgrey;
+    margin-left: 20px;
+}
+
+/* responsive */
+
+@media screen  and (min-width: 970px) {
+    
 }
