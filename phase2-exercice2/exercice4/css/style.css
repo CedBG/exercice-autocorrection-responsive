@@ -1,7 +1,7 @@
 
 
 .container {
-    width: 540px;
+    width: 970px;
     margin: 0 auto;
     border: 1px solid rgb(171, 170, 170);
 }
@@ -215,5 +215,17 @@ footer a {
 /* responsive */
 
 @media screen  and (min-width: 970px) {
-    
+    .grille p {
+        width: 100%;
+    }
+    .nav-h ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 {
+        display: flex;
+    }
+    .article1-2, .article3-4 {
+        display: flex;
+    }
 }
